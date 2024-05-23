@@ -2,7 +2,7 @@
 
 class SMSPartnerAPI
 {
-	const BASE_URL = 'http://api.smspartner.fr/v1/';
+	const BASE_URL = 'https://api.smspartner.fr/v1/';
 	public $debug;
 
 	public function __construct($debug = false)
